@@ -1,5 +1,8 @@
 package com.app.fooddelivery.Model;
 
+import lombok.Data;
+
+@Data
 public class LoginRequest {
     private String email;
     private String password;
@@ -11,6 +14,7 @@ public class LoginRequest {
         this.password = password;
     }
 
+    // Getters & Setters
     public String getEmail() {
         return email;
     }
